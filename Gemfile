@@ -1,11 +1,29 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.9'
+gem 'devise'
+gem 'exception_notification'
+gem 'rails-i18n'
+gem 'tiny_mce'
+gem 'activeadmin'
+gem 'paperclip'
+gem 'has_permalink'
+gem 'will_paginate'
+gem 'nokogiri'
+gem 'httparty'
+gem 'public_activity'
+gem 'formtastic'
+gem 'rack'
+
+group :development, :test do
+	gem 'mysql2', '< 0.3'
+end
+
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+#gem 'sqlite3'
 
 # Use unicorn as the web server
 # gem 'unicorn'
